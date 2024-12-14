@@ -1,0 +1,65 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# TensorFlow model checkpoints
+checkpoint/
+model/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Python packages
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Data files (exclude if they’re too large or sensitive)
+*.h5
+*.csv
+*.json
+*.npy
+
+# Hugging Face cache (if using transformers)
+.cache/
+
+# Coverage reports
+coverage/
+*.cover
+*.hypothesis/
+.coverage.*
+
+# Streamlit
+.streamlit/
+
+# Miscellaneous
+*.tgz
+*.tar.gz
